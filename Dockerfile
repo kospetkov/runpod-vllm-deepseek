@@ -1,4 +1,4 @@
-FROM runpod/worker-vllm:1.1.0preview-cuda12.1.0
+FROM runpod/worker-vllm:stable-cuda12.1.0
 
 # Установим последний vLLM с фиксами
 RUN pip install --upgrade vllm transformers
