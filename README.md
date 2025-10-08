@@ -5,7 +5,7 @@ Docker образ для RunPod Serverless с поддержкой `trust-remote
 ## Использование на RunPod
 
 **Container Image:**
-ghcr.io/ТВОЙ-USERNAME/runpod-vllm-deepseek:latest
+ghcr.io/kospetkov/runpod-vllm-deepseek:latest
 
 **Environment Variables:**
 ```bash
