@@ -13,3 +13,10 @@ python -m vllm.entrypoints.openai.api_server \
     --port 8000
 
 
+    echo "# runpod-vllm-deepseek" >> README.md
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin git@github.com:kospetkov/runpod-vllm-deepseek.git
+    git push -u origin main
