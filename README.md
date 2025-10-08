@@ -23,4 +23,4 @@ Qwen/Qwen2.5-Coder-7B-Instruct
 bashdocker build -t vllm-deepseek .
 docker run --gpus all -p 8000:8000 \
   -e MODEL_NAME=deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct \
-  vllm-deepseek
+  vllm-deepseek# runpod-vllm-deepseek

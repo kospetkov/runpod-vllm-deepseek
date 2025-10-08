@@ -11,3 +11,5 @@ python -m vllm.entrypoints.openai.api_server \
     --gpu-memory-utilization "${GPU_MEMORY_UTILIZATION:-0.9}" \
     --host 0.0.0.0 \
     --port 8000
+
+
